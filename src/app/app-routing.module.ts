@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ContenidoanteproyectoComponent } from './modulos/contenido/contenidoanteproyecto/contenidoanteproyecto.component';
 import { ContregistroantComponent } from './modulos/contenido/contregistroant/contregistroant.component';
 
 
@@ -12,6 +13,9 @@ const routes: Routes = [
   },
   {
     path:'contregistroant',component: ContregistroantComponent
+  },
+  {
+    path:'contenidoanteproyecto',component: ContenidoanteproyectoComponent
   }
 ];
 

@@ -8,6 +8,7 @@ import { ContenidoheaderComponent } from './contenidoheader/contenidoheader.comp
 import { ContenidosliderComponent } from './contenidoslider/contenidoslider.component';
 import { HomefooterComponent } from '../home/homefooter/homefooter.component';
 import { HomeModule } from '../home/home.module';
+import { ContenidoanteproyectoComponent } from './contenidoanteproyecto/contenidoanteproyecto.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { HomeModule } from '../home/home.module';
     ContregistroantComponent,
     ContenidosliderComponent,
     ContenidoheaderComponent,
+    ContenidoanteproyectoComponent,
     
     
 
