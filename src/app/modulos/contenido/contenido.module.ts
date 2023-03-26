@@ -9,6 +9,8 @@ import { ContenidosliderComponent } from './contenidoslider/contenidoslider.comp
 import { HomefooterComponent } from '../home/homefooter/homefooter.component';
 import { HomeModule } from '../home/home.module';
 import { ContenidoanteproyectoComponent } from './contenidoanteproyecto/contenidoanteproyecto.component';
+import { ContenidoanteproyectodescripcionComponent } from './contenidoanteproyectodescripcion/contenidoanteproyectodescripcion.component';
+import { ContenidoanteproyectoplanteamientoComponent } from './contenidoanteproyectoplanteamiento/contenidoanteproyectoplanteamiento.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { ContenidoanteproyectoComponent } from './contenidoanteproyecto/contenid
     ContenidosliderComponent,
     ContenidoheaderComponent,
     ContenidoanteproyectoComponent,
+    ContenidoanteproyectodescripcionComponent,
+    ContenidoanteproyectoplanteamientoComponent,
     
     
 
