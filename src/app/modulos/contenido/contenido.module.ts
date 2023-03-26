@@ -13,6 +13,8 @@ import { ContenidoanteproyectodescripcionComponent } from './contenidoanteproyec
 import { ContenidoanteproyectoplanteamientoComponent } from './contenidoanteproyectoplanteamiento/contenidoanteproyectoplanteamiento.component';
 import { ContenidoanteproyectohipotesisComponent } from './contenidoanteproyectohipotesis/contenidoanteproyectohipotesis.component';
 import { ContenidoanteproyectoobjetivoComponent } from './contenidoanteproyectoobjetivo/contenidoanteproyectoobjetivo.component';
+import { ContenidoanteproyectotitleComponent } from './contenidoanteproyectotitle/contenidoanteproyectotitle.component';
+import { ContenidoanteproyectojustificacionComponent } from './contenidoanteproyectojustificacion/contenidoanteproyectojustificacion.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { ContenidoanteproyectoobjetivoComponent } from './contenidoanteproyectoo
     ContenidoanteproyectoplanteamientoComponent,
     ContenidoanteproyectohipotesisComponent,
     ContenidoanteproyectoobjetivoComponent,
+    ContenidoanteproyectotitleComponent,
+    ContenidoanteproyectojustificacionComponent,
     
     
 

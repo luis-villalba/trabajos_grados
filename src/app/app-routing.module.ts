@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContenidoanteproyectoComponent } from './modulos/contenido/contenidoanteproyecto/contenidoanteproyecto.component';
 import { ContenidoanteproyectodescripcionComponent } from './modulos/contenido/contenidoanteproyectodescripcion/contenidoanteproyectodescripcion.component';
 import { ContenidoanteproyectohipotesisComponent } from './modulos/contenido/contenidoanteproyectohipotesis/contenidoanteproyectohipotesis.component';
+import { ContenidoanteproyectojustificacionComponent } from './modulos/contenido/contenidoanteproyectojustificacion/contenidoanteproyectojustificacion.component';
 import { ContenidoanteproyectoobjetivoComponent } from './modulos/contenido/contenidoanteproyectoobjetivo/contenidoanteproyectoobjetivo.component';
 import { ContenidoanteproyectoplanteamientoComponent } from './modulos/contenido/contenidoanteproyectoplanteamiento/contenidoanteproyectoplanteamiento.component';
+import { ContenidoanteproyectotitleComponent } from './modulos/contenido/contenidoanteproyectotitle/contenidoanteproyectotitle.component';
 import { ContregistroantComponent } from './modulos/contenido/contregistroant/contregistroant.component';
 
 
@@ -32,6 +34,12 @@ const routes: Routes = [
   },
   {
     path:'contenidoanteproyectoobjetivo', component: ContenidoanteproyectoobjetivoComponent
+  },
+  {
+    path:'contenidoanteproyectojustificacion', component: ContenidoanteproyectojustificacionComponent
+  },
+  {
+    path:'contenidoanteproyectotitle', component: ContenidoanteproyectotitleComponent
   }
 
 ];
