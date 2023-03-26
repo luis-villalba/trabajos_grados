@@ -11,6 +11,8 @@ import { HomeModule } from '../home/home.module';
 import { ContenidoanteproyectoComponent } from './contenidoanteproyecto/contenidoanteproyecto.component';
 import { ContenidoanteproyectodescripcionComponent } from './contenidoanteproyectodescripcion/contenidoanteproyectodescripcion.component';
 import { ContenidoanteproyectoplanteamientoComponent } from './contenidoanteproyectoplanteamiento/contenidoanteproyectoplanteamiento.component';
+import { ContenidoanteproyectohipotesisComponent } from './contenidoanteproyectohipotesis/contenidoanteproyectohipotesis.component';
+import { ContenidoanteproyectoobjetivoComponent } from './contenidoanteproyectoobjetivo/contenidoanteproyectoobjetivo.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { ContenidoanteproyectoplanteamientoComponent } from './contenidoanteproy
     ContenidoanteproyectoComponent,
     ContenidoanteproyectodescripcionComponent,
     ContenidoanteproyectoplanteamientoComponent,
+    ContenidoanteproyectohipotesisComponent,
+    ContenidoanteproyectoobjetivoComponent,
     
     
 

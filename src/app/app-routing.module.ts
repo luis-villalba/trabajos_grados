@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContenidoanteproyectoComponent } from './modulos/contenido/contenidoanteproyecto/contenidoanteproyecto.component';
 import { ContenidoanteproyectodescripcionComponent } from './modulos/contenido/contenidoanteproyectodescripcion/contenidoanteproyectodescripcion.component';
+import { ContenidoanteproyectohipotesisComponent } from './modulos/contenido/contenidoanteproyectohipotesis/contenidoanteproyectohipotesis.component';
+import { ContenidoanteproyectoobjetivoComponent } from './modulos/contenido/contenidoanteproyectoobjetivo/contenidoanteproyectoobjetivo.component';
 import { ContenidoanteproyectoplanteamientoComponent } from './modulos/contenido/contenidoanteproyectoplanteamiento/contenidoanteproyectoplanteamiento.component';
 import { ContregistroantComponent } from './modulos/contenido/contregistroant/contregistroant.component';
 
@@ -24,6 +26,12 @@ const routes: Routes = [
   },
   {
     path:'contenidoanteproyectoplanteamiento', component: ContenidoanteproyectoplanteamientoComponent
+  },
+  {
+    path:'contenidoanteproyectohipotesis', component: ContenidoanteproyectohipotesisComponent
+  },
+  {
+    path:'contenidoanteproyectoobjetivo', component: ContenidoanteproyectoobjetivoComponent
   }
 
 ];
