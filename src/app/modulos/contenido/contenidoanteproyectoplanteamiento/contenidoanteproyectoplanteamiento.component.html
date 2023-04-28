@@ -1,77 +1,75 @@
-<div class="bg-info-subtle p-2 text-dark bg-opacity-75">
-  <div class="p-3 mb-2 bg-warning text-dark">
+<div class="bg-info-subtle p-0 text-dark bg-opacity-75">
+  <div class="p-2 mb-2 bg-warning text-dark">
+    <app-contenidoheader></app-contenidoheader>
+  </div>
+  <div class="row">
+    <div class="col-8">
+      
+      <div class="contenido-carrusel">
+        <div class="col-4" >
+          <div 
+            id="carouselExampleSlidesOnly"
+            class="carousel-slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner" >
+              <div class="carousel-item active">
+                <img
+                  src="https://picsum.photos/1200/323"
+                  class="d-block"
+                  
+                  alt="Imagen 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://picsum.photos/1200/321"
+                  class="d-block"
+                  
+                  alt="Imagen 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://picsum.photos/1200/322"
+                  class="d-block"
+                  
+                  alt="Imagen 3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>     
 
-  <app-contenidoheader ></app-contenidoheader>
-</div>
-<div class="row">
-  <div class="col-4 ">
-    <p>
-      <br>
-    </p>
-  <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel"  class="border border-danger">
-    <div class="carousel-inner" >
-      <div class="carousel-item active">
-        <img src="https://picsum.photos/1200/323" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/1200/321" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/1200/322" class="d-block w-100" alt="...">
+      <h1>Descripción</h1>
+      <p>Ingresa tu descripción</p>
+
+      <div class="formulario">
+        <form>
+          <label
+            for="miTexto"
+            style="
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              align-items: center;">
+            </label>
+
+          <textarea id="miTexto" name="miTexto" rows="24" cols="70"> </textarea>
+        </form>
+        <a routerLink="/contenidoanteproyecto">
+          <button
+            type="submit"
+            class="btn btn-primary mb-3"
+            style="width: 536px"
+            onclick="alert('Registro Exitoso!')"
+          >
+            Enviar
+          </button>
+        </a>
       </div>
     </div>
   </div>
-  <p>
-    <br>
-  </p>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" class="border border-5 border-warning">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://picsum.photos/1200/323" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/1200/321" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/1200/322" class="d-block w-100" alt="...">
-      </div>
-    </div>
-  </div>
-  <p>
-    <br>
-  </p>
-  <a routerLink="/contenidoanteproyecto"  >
-    <button type="submit" class="btn btn-primary mb-3" onclick="alert('Registro Exitoso!')" >Enviar</button>
-
-  </a>
-</div>
-  <div class="col-8" style="
-  padding-left: 80px;" >
-  <div style="
-padding-left: 90px;
-padding-top: 30px;" class="text-dark ">
-
-  <h1>Planteamiento</h1>
 </div>
 
-<div>
-<label for="miTexto" style="
-padding-left: 90px;">Ingresa tu Planteamiento</label>
-<form>
-
-  <textarea id="miTexto" name="miTexto" rows="24" cols="70">
-  </textarea>
-
-</form>
-</div>
-</div>
-
-</div>
-
-
-</div>
-
-
-
-
-<app-homefooter ></app-homefooter>
+<app-homefooter></app-homefooter>
