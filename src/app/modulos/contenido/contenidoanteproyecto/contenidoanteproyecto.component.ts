@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-contenidoanteproyecto',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./contenidoanteproyecto.component.sass']
 })
 export class ContenidoanteproyectoComponent {
+  @Output() mensajeDelHijo = new EventEmitter();
 
+  cargarPersonas(){
+    this.mensajeDelHijo.emit('personas');
+  }
 }

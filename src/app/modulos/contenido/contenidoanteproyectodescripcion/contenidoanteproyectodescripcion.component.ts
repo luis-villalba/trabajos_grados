@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./contenidoanteproyectodescripcion.component.sass']
 })
 export class ContenidoanteproyectodescripcionComponent {
-
+  
 }
